@@ -1,0 +1,333 @@
+body{
+    margin:auto/* to start from the corner*/
+}
+/* header */
+#header{
+    height:60px;
+    
+    background-color:#44382b;
+     
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+
+#icon{
+    font-size: 40px;
+    float:left;
+    margin-left:2%;
+    color:beige;
+    font-family: Bodoni MT;
+}
+#social{
+    margin-right: 1px;
+}
+.slogo{
+    height:40px;
+    width:40px;
+    float:right;
+    margin-right:1%;
+}
+#search{
+    height:400px;
+    background-repeat: no-repeat;
+    background-image: url("images/images/food11.jpg");
+    background-size: cover;
+    background-size:100% 400px;/*width height*/
+}
+
+
+
+/* search */ 
+#logo{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    margin:auto;
+    background-color:white;
+    margin-left: 46%;
+    margin-top:1%;
+    position : absolute;
+    animation:movelogo 20s infinite;
+   
+    
+    
+}
+
+@keyframes movelogo{
+    0%{margin-left:45%;}
+    25%{
+        margin-left:40%;
+    }
+    50%{margin-left:45%;}
+    75%{
+        margin-left:60%;
+    }
+    100%{
+        margin-left:45%;
+    }
+
+}
+#logo > img {
+    margin-left: 39px;
+    margin-top:30px;
+    position : absolute;
+    color: black;
+    height:80px;
+    }
+
+/*#logo:hover{
+    transition: margin-left  10s;
+    margin-left:45%;
+    
+}*/
+
+#heading{
+    margin-left: 31%;
+    margin-top:12%;
+    position : absolute;
+    font-size:40px;
+    color:white;
+    font-weight:bold;
+
+}
+#city {
+    margin-left: 42%;
+    margin-top: 17%;
+    position: absolute;
+    height: 60px;
+    width: 37%;
+}
+
+
+select{
+    height: 60px;
+    width: 25%;
+    margin-left: 17%;
+    margin-top: 17%;
+
+}
+
+.select1{
+    width:50%;
+}
+/* quick search*/
+#quicksearch{
+    height:500px;
+    width:80%;
+     margin-left:10%;
+     margin-top:4%;
+     
+}
+.quickheading:hover{
+    color:grey;
+}
+
+ .quickheading{
+     display:block;
+     font-size:35px;
+     font-family:Georgia;
+     
+     font-weight:bold;
+     
+
+ }
+ .subheading{
+     line-height:3;
+     font-family: Georgia;
+
+ }
+
+ .subcontainer{
+     height: 180px;
+     width: 30%;
+     float:left;
+     margin-left:7px;
+     margin-top:14px;
+     box-shadow :10px 20px 10px gray;
+    /*animation: dance 10s infinite;*/
+
+ }
+
+ /*@keyframes dance{
+    
+        0%{transform:rotate(0deg);}
+        25%{
+            transform:rotate(5deg);
+        }
+        50%{transform:rotate(0deg);}
+        75%{
+            transform:rotate(-5deg);
+        }
+        100%{
+            transform:rotate(0deg);
+        }
+    
+    
+ }*/
+ .subcontainer:hover{
+     transform:scale(1.1);
+     /*transform:rotate(20deg)*/
+    /* transform:skew(-30deg);*/
+ }
+
+ .text1{
+     width:55%;
+     float:left;
+     height:180px;
+
+ }
+
+ .text2{
+     width:35%;
+     float:left;
+     height:180px;
+     margin-left:9px;
+     font-family: Georgia;
+     font-weight:bold;
+
+
+ }
+ .text1 > img{
+     width:100%;
+     height: 160px;
+     float:left;
+     margin-top: 10px;
+     margin-left: 2px;
+
+ }
+
+ .inside1{
+     font-size: 25px;
+     font-family: 'Times New Roman', Times, serif;
+     
+ }
+
+.inside2{
+    color: #44382b;
+}
+
+@media screen and (max-width:1600px) {
+
+    
+    
+}
+
+@media screen and (max-width:1400px) {
+    
+
+}
+
+@media screen and (max-width:1200px) {
+    
+     
+#heading{
+    margin-left: 31%;
+    margin-top:16%;
+
+
+}
+
+.dropdown{
+    margin-left: 29%;
+    margin-top:22%;
+    
+    }
+}
+
+@media screen and (max-width:1000px) {
+    
+   
+
+.subcontainer{
+    
+    width: 45%;
+    }
+    #heading{
+        margin-left: 26%;
+        margin-top:18%;
+    
+    
+    }
+    
+    .dropdown{
+        margin-left: 30%;
+        margin-top:24%;
+        
+        }
+}
+@media screen and (max-width:800px) {
+    
+    
+#heading{
+    margin-left: 18%;
+    margin-top:22%;
+
+
+}
+
+.dropdown{
+    margin-left: 25%;
+    margin-top:30%;
+    
+    }
+
+    #logo{
+        
+        margin-left: 42%;
+        margin-top:1%;
+        }
+}
+
+@media screen and (max-width:600px) {
+    
+ 
+
+.subcontainer{
+    
+    width: 90%;
+    }
+
+    #heading{
+        margin-left: 18%;
+        margin-top:28%;
+    
+    
+    }
+    
+    .dropdown{
+        margin-left: 25%;
+        margin-top:48%;
+        
+        }
+
+        #logo{
+        
+            margin-left: 38%;
+            margin-top:1%;
+            }
+}
+
+@media screen and (max-width:400){
+    
+    #heading{
+        margin-left: 18%;
+        margin-top:28%;
+    
+    
+    }
+    
+    .dropdown{
+        margin-left: 25%;
+        margin-top:48%;
+        
+        }
+
+        #logo{
+        
+            margin-left: 38%;
+            margin-top:1%;
+            }
+
+}
